@@ -47,7 +47,7 @@ function App() {
         Next random video
       </button>
 
-      <VideoPlayer {...videoOptions} sources={sources} techOrder={['youtube']} />
+      <VideoPlayer {...videoOptions} sources={sources} />
     </div>
   );
 }

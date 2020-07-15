@@ -1,5 +1,7 @@
 import React, { memo, useEffect, useRef, useState } from 'react';
 import videojs, { VideoJsPlayerOptions, VideoJsPlayer } from 'video.js';
+
+import 'videojs-youtube';
 import './styles.css';
 
 export const VideoPlayerComponent: React.FC<VideoPlayerProps> = (props) => {
