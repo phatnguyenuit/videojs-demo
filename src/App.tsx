@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
+import { VideoJsPlayerOptions } from 'video.js';
+
 import VideoPlayer from 'components/VideoPlayer';
 
-import './App.css';
 import 'video.js/dist/video-js.min.css';
-import { VideoJsPlayerOptions } from 'video.js';
+import './App.css';
 
 const getRandomItem = (arr: Array<any>) =>
   arr[Math.floor(Math.random() * arr.length)];
